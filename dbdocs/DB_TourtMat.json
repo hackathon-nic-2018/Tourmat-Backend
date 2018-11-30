@@ -1,0 +1,67 @@
+
+// 
+// COLLECTION: Post 
+//
+
+{
+    ID_POST : ,
+    tiempo : ,
+    esPromocion : ,
+    ID_EMPRESA : 
+}
+
+// 
+// COLLECTION: Detalle 
+//
+
+{
+    ID_DETALLE : ,
+    ID_EMPRESA : ,
+    ID_PROPIETARIO : ""
+}
+
+// 
+// COLLECTION: Propietario 
+//
+
+{
+    ID_PROPIETARIO : "",
+    nombresCompleto : "",
+    apellidosCompleto : "",
+    noCedula : "",
+    noTelefono : ,
+    noCelular :
+}
+
+// 
+// COLLECTION: Actividad 
+//
+
+{
+    ID_ACTIVIDAD : ,
+    descripcion : "",
+    ID_EMPRESA :
+}
+
+// 
+// COLLECTION: Empresa 
+//
+
+{
+    ID_EMPRESA : ,
+    nombreNegocio : "",
+    localidad : "",
+    actividad : "",
+    descripcionEspecifica : "",
+    noTelefono : ,
+    no_Celular : ,
+    correo : "",
+    horarioAtencion : ,
+    descripcion : "",
+    fotografia : "",
+    username : ,
+    password : ""
+}
+
+
+
